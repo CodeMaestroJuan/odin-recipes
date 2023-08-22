@@ -1,14 +1,32 @@
-* {
-    background-color: rgb(79,223,242)
+body {
+    background-color: blueviolet;
 }
 
 #logo {
-    width: 300px
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     font-family: 'segoe-ui-black-regular', sans-serif;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 1.75px; 
     -webkit-text-stroke-color: rgb(174, 55, 40);
+    text-align: center;
 }
 
+a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 15px 25px;
+    border-style:dotted;
+    position: relative;
+    background-color: aquamarine;
+}
+
+.box {
+    border:2px
+}
