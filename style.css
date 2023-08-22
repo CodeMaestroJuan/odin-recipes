@@ -28,10 +28,22 @@ h1 {
     position: relative;
     background-color: aquamarine;
 }
+
 .box:hover {
-    background-color: rgba(52, 237, 175, 0.959);
-    border-style: inset;
-    border-radius: 7%;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5) inset;
+}
+
+div {   
+    cursor: pointer;
+    clear: both;
+    border-radius: 3px;
+    padding: 20px 60px;
+    display: inline-block;
+    margin: 0 20px;
+    transition: all 0.8s, color 0.3s 0.3s;
+    cursor: pointer;
+    background:;
+    color: #333;
 }
 
 #box-1 {
