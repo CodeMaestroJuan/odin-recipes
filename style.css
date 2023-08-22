@@ -12,6 +12,7 @@ h1 {
     font-family: 'segoe-ui-black-regular', sans-serif;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 1.75px; 
+    size: 40px;
     -webkit-text-stroke-color: rgb(174, 55, 40);
     text-align: center;
 }
@@ -22,9 +23,15 @@ h1 {
     height: 150px;
     text-align: center;
     padding: 15px 25px;
-    border-style:dotted;
+    border-style: outset;
+    border-radius: 5%;
     position: relative;
     background-color: aquamarine;
+}
+.box:hover {
+    background-color: rgba(52, 237, 175, 0.959);
+    border-style: inset;
+    border-radius: 7%;
 }
 
 #box-1 {
