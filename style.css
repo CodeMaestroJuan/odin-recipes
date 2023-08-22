@@ -27,3 +27,18 @@ h1 {
     background-color: aquamarine;
 }
 
+#box-1 {
+    position: absolute;
+    left: 8rem;
+    top: 18rem
+}
+#box-2 {
+    position: absolute;
+    left: 34rem;
+    top: 18rem
+}
+#box-3 {
+    position: absolute;
+    right: 8rem;
+    top:18rem
+}
