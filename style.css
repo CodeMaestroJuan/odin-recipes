@@ -16,10 +16,10 @@ h1 {
     text-align: center;
 }
 
-a {
+.box {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     padding: 15px 25px;
     border-style:dotted;
@@ -27,6 +27,3 @@ a {
     background-color: aquamarine;
 }
 
-.box {
-    border:2px
-}
